@@ -1,10 +1,10 @@
 {
-  "name": "acss",
+  "name": "@angelcruz/acss",
   "version": "1.0.0",
   "description": "",
   "main": "sass/main.scss",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "sass sass/main.scss dist/index.css --style=compressed"
   },
   "keywords": [],
   "author": "",
